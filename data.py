@@ -10,7 +10,7 @@ from sklearn.metrics import mean_absolute_error
 import math
 import statsmodels.api as sm
 
-path='Desktop/sample/50_Startups.csv'
+path='Desktop/sample/50_Startups.csv'  # add your path to the csv file here
 df = pd.read_csv(path,encoding='utf-8')
 df.head()
 
